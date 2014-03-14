@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA892BC218D34973004FBA61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892BC118D34973004FBA61 /* Cocoa.framework */; };
+		CA892BC418D34973004FBA61 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892BC318D34973004FBA61 /* PreferencePanes.framework */; };
+		CA892BCE18D34973004FBA61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA892BCC18D34973004FBA61 /* InfoPlist.strings */; };
+		CA892BD218D34973004FBA61 /* HiddenFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892BD118D34973004FBA61 /* HiddenFiles.m */; };
+		CA892BD418D34973004FBA61 /* HiddenFiles.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CA892BD318D34973004FBA61 /* HiddenFiles.tiff */; };
+		CA892BD718D34973004FBA61 /* HiddenFiles.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA892BD518D34973004FBA61 /* HiddenFiles.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA892BBE18D34973004FBA61 /* HiddenFiles.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenFiles.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA892BC118D34973004FBA61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA892BC318D34973004FBA61 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		CA892BC618D34973004FBA61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA892BC718D34973004FBA61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA892BC818D34973004FBA61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA892BCB18D34973004FBA61 /* HiddenFiles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiddenFiles-Info.plist"; sourceTree = "<group>"; };
+		CA892BCD18D34973004FBA61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA892BCF18D34973004FBA61 /* HiddenFiles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiddenFiles-Prefix.pch"; sourceTree = "<group>"; };
+		CA892BD018D34973004FBA61 /* HiddenFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenFiles.h; sourceTree = "<group>"; };
+		CA892BD118D34973004FBA61 /* HiddenFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenFiles.m; sourceTree = "<group>"; };
+		CA892BD318D34973004FBA61 /* HiddenFiles.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = HiddenFiles.tiff; sourceTree = "<group>"; };
+		CA892BD618D34973004FBA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HiddenFiles.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA892BB918D34973004FBA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892BC218D34973004FBA61 /* Cocoa.framework in Frameworks */,
+				CA892BC418D34973004FBA61 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA892BB318D34972004FBA61 = {
+			isa = PBXGroup;
+			children = (
+				CA892BC918D34973004FBA61 /* HiddenFiles */,
+				CA892BC018D34973004FBA61 /* Frameworks */,
+				CA892BBF18D34973004FBA61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA892BBF18D34973004FBA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA892BBE18D34973004FBA61 /* HiddenFiles.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA892BC018D34973004FBA61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA892BC118D34973004FBA61 /* Cocoa.framework */,
+				CA892BC318D34973004FBA61 /* PreferencePanes.framework */,
+				CA892BC518D34973004FBA61 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA892BC518D34973004FBA61 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA892BC618D34973004FBA61 /* AppKit.framework */,
+				CA892BC718D34973004FBA61 /* CoreData.framework */,
+				CA892BC818D34973004FBA61 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA892BC918D34973004FBA61 /* HiddenFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CA892BD018D34973004FBA61 /* HiddenFiles.h */,
+				CA892BD118D34973004FBA61 /* HiddenFiles.m */,
+				CA892BD318D34973004FBA61 /* HiddenFiles.tiff */,
+				CA892BD518D34973004FBA61 /* HiddenFiles.xib */,
+				CA892BCA18D34973004FBA61 /* Supporting Files */,
+			);
+			path = HiddenFiles;
+			sourceTree = "<group>";
+		};
+		CA892BCA18D34973004FBA61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA892BCB18D34973004FBA61 /* HiddenFiles-Info.plist */,
+				CA892BCC18D34973004FBA61 /* InfoPlist.strings */,
+				CA892BCF18D34973004FBA61 /* HiddenFiles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA892BBA18D34973004FBA61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CA892BBD18D34973004FBA61 /* HiddenFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA892BDA18D34973004FBA61 /* Build configuration list for PBXNativeTarget "HiddenFiles" */;
+			buildPhases = (
+				CA892BB818D34973004FBA61 /* Sources */,
+				CA892BB918D34973004FBA61 /* Frameworks */,
+				CA892BBA18D34973004FBA61 /* Headers */,
+				CA892BBB18D34973004FBA61 /* Resources */,
+				CA892BBC18D34973004FBA61 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiddenFiles;
+			productName = HiddenFiles;
+			productReference = CA892BBE18D34973004FBA61 /* HiddenFiles.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA892BB418D34973004FBA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hiroyuki Kurosawa";
+			};
+			buildConfigurationList = CA892BB718D34973004FBA61 /* Build configuration list for PBXProject "HiddenFiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA892BB318D34972004FBA61;
+			productRefGroup = CA892BBF18D34973004FBA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA892BBD18D34973004FBA61 /* HiddenFiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA892BBB18D34973004FBA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892BD418D34973004FBA61 /* HiddenFiles.tiff in Resources */,
+				CA892BCE18D34973004FBA61 /* InfoPlist.strings in Resources */,
+				CA892BD718D34973004FBA61 /* HiddenFiles.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		CA892BBC18D34973004FBA61 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA892BB818D34973004FBA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892BD218D34973004FBA61 /* HiddenFiles.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA892BCC18D34973004FBA61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA892BCD18D34973004FBA61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA892BD518D34973004FBA61 /* HiddenFiles.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA892BD618D34973004FBA61 /* Base */,
+			);
+			name = HiddenFiles.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA892BD818D34973004FBA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA892BD918D34973004FBA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA892BDB18D34973004FBA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
+				INFOPLIST_FILE = "HiddenFiles/HiddenFiles-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		CA892BDC18D34973004FBA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
+				INFOPLIST_FILE = "HiddenFiles/HiddenFiles-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA892BB718D34973004FBA61 /* Build configuration list for PBXProject "HiddenFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA892BD818D34973004FBA61 /* Debug */,
+				CA892BD918D34973004FBA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA892BDA18D34973004FBA61 /* Build configuration list for PBXNativeTarget "HiddenFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA892BDB18D34973004FBA61 /* Debug */,
+				CA892BDC18D34973004FBA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA892BB418D34973004FBA61 /* Project object */;
+}
