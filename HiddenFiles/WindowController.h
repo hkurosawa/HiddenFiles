@@ -9,5 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @interface WindowController : NSWindowController
+- (IBAction)didOKClicked:(id)sender;
+- (IBAction)didCancelClicked:(id)sender;
 
 @end

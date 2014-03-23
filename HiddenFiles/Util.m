@@ -21,7 +21,7 @@
     
     NSArray *arguments;
     NSString* newpath = [NSString stringWithFormat:@"%@/%@",[bundle resourcePath], scriptName];
-    NSLog(@"shell script path: %@",newpath);
+    //NSLog(@"shell script path: %@",newpath);
     arguments = [NSArray arrayWithObjects:newpath, nil];
     [task setArguments: arguments];
     
@@ -38,8 +38,9 @@
     data = [file readDataToEndOfFile];
     
     NSString *string;
-    string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
-    NSLog (@"script returned:\n%@", string);
+    string = [[[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding]
+              stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    NSLog (@"script returned:%@", string);
     
     return string;
 }

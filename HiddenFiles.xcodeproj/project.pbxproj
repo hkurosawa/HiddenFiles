@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5655F218D6D67300F7EA8F /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5655F018D6D67300F7EA8F /* Util.h */; };
+		CA5655F318D6D67300F7EA8F /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5655F118D6D67300F7EA8F /* Util.m */; };
+		CA5655F518D6D7C000F7EA8F /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = CA5655F418D6D7C000F7EA8F /* Script.sh */; };
+		CA56561018D6DC4000F7EA8F /* RelaunchFinder.sh in Resources */ = {isa = PBXBuildFile; fileRef = CA5655F618D6DB2800F7EA8F /* RelaunchFinder.sh */; };
+		CA56561218D6DE2C00F7EA8F /* CheckLibraryHiddenFlag.sh in Resources */ = {isa = PBXBuildFile; fileRef = CA56561118D6DE2C00F7EA8F /* CheckLibraryHiddenFlag.sh */; };
+		CA56561518D6EDC000F7EA8F /* ChflagsNoHiddenLibrary.sh in Resources */ = {isa = PBXBuildFile; fileRef = CA56561418D6EDC000F7EA8F /* ChflagsNoHiddenLibrary.sh */; };
+		CA56561718D6EDF100F7EA8F /* ChflagsHiddenLibrary.sh in Resources */ = {isa = PBXBuildFile; fileRef = CA56561618D6EDF100F7EA8F /* ChflagsHiddenLibrary.sh */; };
+		CA56561D18D6F4CB00F7EA8F /* WindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA56561A18D6F4CB00F7EA8F /* WindowController.h */; };
+		CA56561E18D6F4CB00F7EA8F /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56561B18D6F4CB00F7EA8F /* WindowController.m */; };
+		CA56561F18D6F4CB00F7EA8F /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA56561C18D6F4CB00F7EA8F /* WindowController.xib */; };
 		CA892BC218D34973004FBA61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892BC118D34973004FBA61 /* Cocoa.framework */; };
 		CA892BC418D34973004FBA61 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892BC318D34973004FBA61 /* PreferencePanes.framework */; };
 		CA892BCE18D34973004FBA61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA892BCC18D34973004FBA61 /* InfoPlist.strings */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA5655F018D6D67300F7EA8F /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		CA5655F118D6D67300F7EA8F /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		CA5655F418D6D7C000F7EA8F /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = Script.sh; path = HiddenFiles/Scripts/Script.sh; sourceTree = "<group>"; };
+		CA5655F618D6DB2800F7EA8F /* RelaunchFinder.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = RelaunchFinder.sh; path = HiddenFiles/Scripts/RelaunchFinder.sh; sourceTree = "<group>"; };
+		CA56561118D6DE2C00F7EA8F /* CheckLibraryHiddenFlag.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = CheckLibraryHiddenFlag.sh; path = HiddenFiles/Scripts/CheckLibraryHiddenFlag.sh; sourceTree = "<group>"; };
+		CA56561418D6EDC000F7EA8F /* ChflagsNoHiddenLibrary.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = ChflagsNoHiddenLibrary.sh; path = HiddenFiles/Scripts/ChflagsNoHiddenLibrary.sh; sourceTree = "<group>"; };
+		CA56561618D6EDF100F7EA8F /* ChflagsHiddenLibrary.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = ChflagsHiddenLibrary.sh; path = HiddenFiles/Scripts/ChflagsHiddenLibrary.sh; sourceTree = "<group>"; };
+		CA56561A18D6F4CB00F7EA8F /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		CA56561B18D6F4CB00F7EA8F /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		CA56561C18D6F4CB00F7EA8F /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
 		CA892BBE18D34973004FBA61 /* HiddenFiles.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenFiles.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA892BC118D34973004FBA61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CA892BC318D34973004FBA61 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
@@ -44,9 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA56561318D6ED3C00F7EA8F /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CA5655F418D6D7C000F7EA8F /* Script.sh */,
+				CA5655F618D6DB2800F7EA8F /* RelaunchFinder.sh */,
+				CA56561118D6DE2C00F7EA8F /* CheckLibraryHiddenFlag.sh */,
+				CA56561418D6EDC000F7EA8F /* ChflagsNoHiddenLibrary.sh */,
+				CA56561618D6EDF100F7EA8F /* ChflagsHiddenLibrary.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
 		CA892BB318D34972004FBA61 = {
 			isa = PBXGroup;
 			children = (
+				CA56561318D6ED3C00F7EA8F /* Scripts */,
 				CA892BC918D34973004FBA61 /* HiddenFiles */,
 				CA892BC018D34973004FBA61 /* Frameworks */,
 				CA892BBF18D34973004FBA61 /* Products */,
@@ -89,6 +122,11 @@
 				CA892BD318D34973004FBA61 /* HiddenFiles.tiff */,
 				CA892BD518D34973004FBA61 /* HiddenFiles.xib */,
 				CA892BCA18D34973004FBA61 /* Supporting Files */,
+				CA5655F018D6D67300F7EA8F /* Util.h */,
+				CA5655F118D6D67300F7EA8F /* Util.m */,
+				CA56561A18D6F4CB00F7EA8F /* WindowController.h */,
+				CA56561B18D6F4CB00F7EA8F /* WindowController.m */,
+				CA56561C18D6F4CB00F7EA8F /* WindowController.xib */,
 			);
 			path = HiddenFiles;
 			sourceTree = "<group>";
@@ -110,6 +148,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA56561D18D6F4CB00F7EA8F /* WindowController.h in Headers */,
+				CA5655F218D6D67300F7EA8F /* Util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,9 +207,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA56561018D6DC4000F7EA8F /* RelaunchFinder.sh in Resources */,
+				CA56561F18D6F4CB00F7EA8F /* WindowController.xib in Resources */,
+				CA56561518D6EDC000F7EA8F /* ChflagsNoHiddenLibrary.sh in Resources */,
+				CA56561718D6EDF100F7EA8F /* ChflagsHiddenLibrary.sh in Resources */,
 				CA892BD418D34973004FBA61 /* HiddenFiles.tiff in Resources */,
 				CA892BCE18D34973004FBA61 /* InfoPlist.strings in Resources */,
 				CA892BD718D34973004FBA61 /* HiddenFiles.xib in Resources */,
+				CA5655F518D6D7C000F7EA8F /* Script.sh in Resources */,
+				CA56561218D6DE2C00F7EA8F /* CheckLibraryHiddenFlag.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA892BD218D34973004FBA61 /* HiddenFiles.m in Sources */,
+				CA56561E18D6F4CB00F7EA8F /* WindowController.m in Sources */,
+				CA5655F318D6D67300F7EA8F /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +280,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DSTROOT = /;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -247,6 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -270,6 +320,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -279,6 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
@@ -288,6 +340,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
 				INFOPLIST_FILE = "HiddenFiles/HiddenFiles-Info.plist";
@@ -301,6 +355,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HiddenFiles/HiddenFiles-Prefix.pch";
 				INFOPLIST_FILE = "HiddenFiles/HiddenFiles-Info.plist";
@@ -329,6 +385,7 @@
 				CA892BDC18D34973004FBA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
